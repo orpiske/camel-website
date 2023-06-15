@@ -4,25 +4,46 @@ title: "Support"
 
 ## Getting help
 
-If you are experiencing problems using Camel then please report your problem to our mailing list or Zulip chat. This allows the entire community to help with your problem.
-If indeed a bug has been identified in the Camel software, then document the problem in our [Issue Tracker](https://issues.apache.org/jira/browse/CAMEL).
-Please refrain from immediately opening a ticket in the issue tracker unless you are certain it's a problem in the Camel software.
+If you are experiencing problems using Camel, then please report your problem to our mailing list or the Zulip chat. This allows the entire community to help with your problem.
 
-If you are in doubt, we appreciate asking the [mailing list](/community/mailing-list/) or [Zulip](https://camel.zulipchat.com) chat first.
+If we have identified a bug in the Camel, then document the problem in our [Issue Tracker](https://issues.apache.org/jira/browse/CAMEL).
 
-Please read the section below (How to get help), and follow the bullets advised there first:
+Please refrain from immediately opening a ticket on the issue tracker, unless you are certain it’s a problem in the Camel itself.
 
-* [Issue tracker](https://issues.apache.org/jira/browse/CAMEL)
-* [FAQ](/manual/faq/index.html)
+If you are in doubt, we advise you to ask in the [Camel User list](/community/mailing-list/)) or the [Zulip chat](https://camel.zulipchat.com) first.
 
-### Reporting bugs - Please read this first
+Please read the section “How to get help” to learn about obtaining help for Camel. You should also read our [FAQ](/manual/faq/index.html) to check for common questions and their answers.
 
-We prefer people to get in touch first using the mailing list, or Zulip chat. Or take time to read FAQs, or search in the mailing list archives to find answers.
-Unfortunately some people create a JIRA ticket as first thing. **Please don't do that!** Only if you are sure it really is a bug etc. JIRA tickets create noise
-for the Camel team to react on issues that are not bugs but are already covered in FAQs, in the mailing lists etc., or in the existing documentation.
-Also on the mailing lists there are more people active to help you better.
+### Obtaining help - Please read this first
 
-Also please avoid sending direct emails to members of the Camel team - we are busy already. And conversations about Camel should happen in the public, and not via private emails.
+The Apache Camel project is a large and well-established project with a vast community. In order to make it easier for contributors to provide support, please abide by the following rules:
+
+* Avoid sending direct requests (email, private chats, Twitter messages, etc) to members of the Camel team (we are busy and unable to provide individualized support).
+* Conversations about Camel should happen in the public, and not via private emails or chats.
+
+### Obtaining help quickly
+
+We can help you much quicker if you try the following:
+
+* provide us with a reproducer
+  * A JUnit test case that demonstrates your issue. e.g. if you think you've found a bug (can you create a test case to demonstrate the bug?)
+  * A sample application
+*  [submit a patch](/community/contributing/) fixing the bug! (We also buy you beer when we meet you if you submit bug fixes (smile) )
+*  for memory leak or performance related issues, if you can run a profiler on your test case and attach the output as a file (or zipped file if it's huge) to the JIRA we can normally fix things much faster. For example, you could run jmap/jhat, JProfiler or YourKit on your code and send us the output. To find memory leaks it's quicker to resolve if you can tell us what classes are taking up all of the RAM; we can normally figure out what's wrong from that.
+
+
+
+### Reporting bugs
+
+The community does not shy away from analyzing, testing, and working on bug reports. For free. Sometimes, in their own free time.
+
+It is, however, a two-way street: for the community to work efficiently on those bug reports, they need to be way that minimizes the effort for the community.
+
+When writing bug reports, we kindly advise our community to:
+
+* Be as specific as possible and provide as much information as possible.
+
+
 
 ### Reporting security issues
 
@@ -61,13 +82,7 @@ What version of Camel do you use? Remember to include this information.
 *  and check the issue tracker to see if the issue has already been reported
 *  do *not* send private emails to Camel Team members to ask them to help you faster, or in the private only. Help on Apache Camel is volunteer based and must happen in the open on the public Mailing Lists. If you want to get help faster or in private, then see further below.
 
-### How to get help faster
 
-We can help you much quicker if you try the following
-
-*  provide us with a JUnit test case that demonstrates your issue. e.g. if you think you've found a bug, can you create a test case to demonstrate the bug?
-*  [submit a patch](/community/contributing/) fixing the bug! (We also buy you beer when we meet you if you submit bug fixes (smile) )
-*  for memory leak or performance related issues, if you can run a profiler on your test case and attach the output as a file (or zipped file if it's huge) to the JIRA we can normally fix things much faster. For example, you could run jmap/jhat, JProfiler or YourKit on your code and send us the output. To find memory leaks it's quicker to resolve if you can tell us what classes are taking up all of the RAM; we can normally figure out what's wrong from that.
 
 ## Commercial Support
 
